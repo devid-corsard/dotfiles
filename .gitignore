@@ -1,0 +1,13 @@
+/*
+!.tmux.conf
+!.gitignore
+!.zshrc
+
+!/.config
+/.config/*
+!/.config/i3
+
+!/.cargo
+/.cargo/*
+!/.cargo/config.toml
+

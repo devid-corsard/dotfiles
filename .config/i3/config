@@ -41,7 +41,7 @@ exec --no-startup-id nm-applet
 # CUSTOM EXEC
 #
 # SET REPEAT KEY CLICK
-exec --no-startup-id xset r rate 200 40
+exec --no-startup-id xset r rate 200 45
 # SET SLOW MOUSE
 # exec --no-startup-id xinput set-prop 8 291 -0.85
 exec --no-startup-id xinput set-prop "YSPRINGTECH USB OPTICAL MOUSE" "libinput Accel Speed" -0.85

@@ -44,13 +44,15 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xset r rate 200 45
 # SET SLOW MOUSE
 # exec --no-startup-id xinput set-prop 8 291 -0.85
-exec --no-startup-id xinput set-prop "YSPRINGTECH USB OPTICAL MOUSE" "libinput Accel Speed" -0.85
+#exec --no-startup-id xinput set-prop "YSPRINGTECH USB OPTICAL MOUSE" "libinput Accel Speed" -0.85
 # TURN OFF KB LIGHT
-exec --no-startup-id xset led 3
+#exec --no-startup-id xset led 3
 # SET UKRAINIAN AND ENG AND TOOGLE BY WIN SPACE
-exec --no-startup-id setxkbmap -model pc104 -layout us,ua -option grp:win_space_toggle,ctrl:nocaps
+exec --no-startup-id setxkbmap -layout us,ua -variant mac -option grp:win_space_toggle,ctrl:nocaps
 # BACKGROUND
 exec --no-startup-id feh --bg-fill ~/Downloads/735961.png
+# SET DPI
+exec xrandr --dpi 240
 
 
 
@@ -80,7 +82,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal.wrapper
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill

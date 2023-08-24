@@ -1,0 +1,8 @@
+[user]
+	name = Devi Corsard ubuntu
+    email = truegrinde@gmail.com
+	signingkey = /home/devid/.ssh/github
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

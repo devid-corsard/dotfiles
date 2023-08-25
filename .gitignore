@@ -10,4 +10,3 @@
 !/.cargo
 /.cargo/*
 !/.cargo/config.toml
-

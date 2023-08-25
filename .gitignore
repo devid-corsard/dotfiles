@@ -10,3 +10,7 @@
 !/.cargo
 /.cargo/*
 !/.cargo/config.toml
+
+!/.local
+/.local/*
+!/.local/bin
